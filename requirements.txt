@@ -1,0 +1,5 @@
+numpy
+pandas
+websocket-client
+eth-account>=0.10
+hyperliquid-python-sdk
