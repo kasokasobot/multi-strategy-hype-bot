@@ -6,7 +6,7 @@ from utils import get_config
 from websocket_manager import WebsocketManager
 from market_order import place_market_order
 
-# === パラメータ設定（最適化済） ===
+# === Optimized Strategy Parameters ===
 WINDOW = 30
 BB_TP = 0.015
 BB_SL = 0.005
@@ -15,7 +15,7 @@ SPIKE_SL = 0.005
 TREND_TP = 0.015
 TREND_SL = 0.01
 
-Z_SCORE_INTERVAL = 300  # 5分ごとに評価
+Z_SCORE_INTERVAL = 300  # Evaluate every 5 minutes
 
 # === State management ===
 prices = []
